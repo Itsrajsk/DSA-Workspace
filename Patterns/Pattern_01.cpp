@@ -13,6 +13,7 @@ void pattern1(int n)
     }
     
 }
+
 int main()
 {
     int t;  // This is For Testcases

@@ -29,8 +29,8 @@ void pattern(int n)
         cout << endl;
     }
     // 2nd Half
-    initS=8;
-    for (int i = 1; i <=n; i++)
+    initS = 2 * n - 2;
+    for (int i = 1; i <= n; i++)
     {
         // Stars
         for (int j = 1; j <= i; j++)

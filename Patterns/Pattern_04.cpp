@@ -7,13 +7,12 @@ void pattern(int n)
     {
         for (int  j = 1; j<=i; j++) // Inner Loops For Printing The Rows Columnwise
         {
-            cout<<j<<" ";
+            cout<<i<<" ";
         }
         cout<<endl;
     }
     
 }
-
 int main()
 {
     int t;  // This is For Testcases

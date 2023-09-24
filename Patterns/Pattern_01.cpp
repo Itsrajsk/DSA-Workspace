@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void pattern1(int n)
+void pattern(int n)
 {
     for (int i = 0; i<n; i++)
     {
@@ -24,7 +24,7 @@ int main()
         int n;  // Entering Rows
         cout<<"Enter Rows: "<<endl;
         cin>>n; 
-        pattern1(n);  // Calling Function
+        pattern(n);  // Calling Function
     }
     
     return 0;
